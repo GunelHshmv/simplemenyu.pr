@@ -1,0 +1,99 @@
+.firstblok{
+    width: 40%;
+    height: 30vh;
+    border: 1px solid green;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   margin: auto;
+}
+#user,#psw{
+    width: 60%;
+    height: 32px;
+    margin-top: 16px;
+    border: 1px solid green;
+    border-radius: 12px;
+    padding-left: 12px;
+}
+.btn{
+    width: 40%;
+    height: 32px;
+   margin-top: 16px;
+   color: white;
+   font-size: 14px;
+    background-color: steelblue;
+}
+.addbtn{
+    width: 40%;
+    height: 32px;
+   margin-top: 46px;
+   color: white;
+   font-size: 14px;
+    background-color: steelblue;
+}
+.secondblok{
+    width: 40%;
+    height: 50vh;
+    border: 1px solid green;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   margin: auto;
+   gap: 28px;
+   position: relative;
+}
+.head{
+   margin-top: 26px;
+   display: flex;
+   gap: 24px;
+}
+.blokdrinks{
+    display: flex;
+    margin-top: 24px;
+}
+input[type="radio"]{
+    display: none;
+}
+label{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: inline-block;
+}
+input:checked~label{
+    
+    height: 100%;
+    background-color: rgb(175, 175, 255);
+}
+.blok{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 16px;
+    border: 1px solid black;
+}
+.drinksimg{
+width: 100px;
+height: 120px;
+position: absolute;
+right: 10%;
+top: 28%;
+}
+.imgc img,.imgf img,.imgs img{
+ width: 100%;
+ height: 100%;
+}
+#food{
+    width: 60%;
+    height: 32px;
+    margin-top: 16px;
+    border: 1px solid green;
+    border-radius: 12px;
+    padding-left: 12px;
+}
+ul{
+    width: 40%;
+}
